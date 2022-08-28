@@ -1,0 +1,15 @@
+[server]
+# Amount of threads allocated to the thread pool
+thread_count = 12
+# List of ip's, the first will be used but others are backups
+ips = [
+    '127.0.0.1:34254',
+    '127.0.0.1:34255',
+    '127.0.0.1:34256',
+]
+# Max size of share the server can recieve (in bytes)
+max_share_size_without_file = 1000000
+# Max file share size the server can recieve (in bytes)
+max_file_size = 100000000000
+return_on_success = 'Success'
+return_on_help = 'You asked for help?'
